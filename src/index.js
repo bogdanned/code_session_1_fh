@@ -53,13 +53,44 @@ let fruit = "apple";
 //https://javascript.info/string#strings-are-immutable
 fruit = "orange";
 
+// Numbers
+console.log(34+"4")
+
+console.log(34+parseInt("4"))
+console.log(34+parseFloat("4.4"))
+console.log(Math.random(0))// 0 to 1
+console.log(Math.round(Math.random(0) * 22))// 0 to 1
 
 
+// 8 data types
+// Strings - DONE
+// Integers - Numbers DONE
+// BigInt - biiiinumbers
+// Boolean 
+// Symbol
 
 
+console.log(new Date()) // time & date now
+const newUser = {
+  created_at: new Date().getUTCMilliseconds()
+}
+
+//the no of milliseconds from 1970
+console.log(new Date(12234223424234))
+console.log()
+
+const myDate =new Date("2020-09-05T03:00:00");
+
+console.log(myDate.getMonth())
 
 
+//read on the following 
 
+// undefined
+// null 
+// Objects: {}
+// the typeof Operator
+// https://javascript.info/types
 
 
 
